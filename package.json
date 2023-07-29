@@ -4,6 +4,10 @@
   "scripts": {
     "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
     "build": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+    "we": "$env:NODE_OPTIONS = \"--openssl-legacy-provider\"",
+    "ue": "export NODE_OPTIONS=--openssl-legacy-provider",
+    "wbuild": "npm run we && npm run build",
+    "ubuild": "npm run ue && npm run build",
     "deploy": "bash deploy.sh",
     "editFm": "node utils/editFrontmatter.js",
     "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
