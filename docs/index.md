@@ -16,8 +16,8 @@ features: # 可选的
     details: 招聘信息、考研信息、学习资料等
     link: /ui/
     imgUrl: /img/ui.png
-  - title: 还没想好
-    details: 还没想好这个模块
+  - title: 论坛社群
+    details: 经验分享，心得交流，问题求助
     link: /technology/
     imgUrl: /img/other.png
 

@@ -29,7 +29,7 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">公众号</p>
-    敬请期待
+    <img src="https://img2.imgtp.com/2024/05/29/IfjKYYpD.jpg" alt="公众号" title="公众号" />
     </p>
     </div>`,
   // `<!-- 纵向自适应 -->
